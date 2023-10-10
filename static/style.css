@@ -426,3 +426,21 @@ div.outer {
   }
   
   .clear { clear: both; height: 70px; }
+
+  .header {
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .leftcol {
+    flex: 1;
+  }
+
+  .rightcol {
+    flex: 1;
+    text-align: right;
+
+  }
